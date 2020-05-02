@@ -9,13 +9,13 @@ with open("README.md", "r") as fh:
 
 
 
-setup(name='email_pdf',
+setup(name='email',
       version='1.4',
       author="Vasu Gupta(vg)",
       description='Sending pdf document through gmail using python ',
       long_description=long_description,
       long_description_content_type='text/markdown',
-      packages=['email_pdf'],classifiers=[
+      packages=['email'],classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],zip_safe=False)
