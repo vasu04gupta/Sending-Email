@@ -1,2 +1,2 @@
-from .python import email_pdf
+from .python import email
 
