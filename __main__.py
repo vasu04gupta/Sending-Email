@@ -9,7 +9,7 @@ def run():
     filename=input()           #"Name of file"
     address_of_file=input()    # "C:/Users/Vasu Gupta/Desktop"
 
-    k=email_pdf(sender_email,receiver_email,sender_password,subject,body,filename,address_of_file)
+    k=email(sender_email,receiver_email,sender_password,subject,body,filename,address_of_file)
     k.email_send()
     print("Done")
 
