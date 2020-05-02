@@ -7,7 +7,7 @@ from email.mime.base import MIMEBase
 from email import encoders 
 
 
-class email_pdf:
+class email:
     def __init__(self,sender_email,receiver_email,sender_password,subject,body,filename,address_of_file):
         self.sender_email=sender_email
         self.receiver_email=receiver_email
