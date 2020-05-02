@@ -1,4 +1,4 @@
-from .python import email_pdf
+from .python import email
 
 def run():
     sender_email=input()       #"abcd@mail.com"
